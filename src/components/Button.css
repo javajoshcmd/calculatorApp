@@ -1,0 +1,20 @@
+.button-wrapper {
+  height: 3em;
+  width: 100%;
+  margin: 2%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 300;
+  font-size: 1.75em;
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  border-radius: 180px;
+  flex: 1;
+}
+
+.operator {
+  display: flex;
+  background-color: #f0170898;
+  color: white;
+}
