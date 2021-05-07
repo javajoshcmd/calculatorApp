@@ -9,7 +9,7 @@
   height: 100vh;
   width: 100%;
 }
-.App:hover {
+.calc-wrapper:hover {
   cursor: pointer;
 }
 
