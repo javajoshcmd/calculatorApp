@@ -12,6 +12,10 @@
   border-radius: 180px;
   flex: 1;
 }
+.button-wrapper:hover {
+  background-color: #202020a6;
+  color: #ffffff;
+}
 
 .operator {
   display: flex;

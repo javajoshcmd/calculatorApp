@@ -16,7 +16,11 @@ class App extends React.Component {
   };
 
   handleEqual = () => {
-    this.setState({ input: math.evaluate(this.state.input) });
+    try {
+      this.setState({ input: math.evaluate(this.state.input) });
+    } catch {
+      this.setState({ input: "ERROR" });
+    }
   };
   render() {
     return (
